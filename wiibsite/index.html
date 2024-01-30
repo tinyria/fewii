@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Wiibsite WIP</title>
+    <!--Popper must be before Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/@floating-ui/core@1.6.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@floating-ui/dom@1.6.1"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="element.fade.in.js"></script>
+</head>
+<body>
+<!--NAVBAR-->
+<nav class="navbar sticky-top navbar-dark bg-dark">
+    <div class="container-fluid">
+        <button class="ms-2 navbar-toggler dropdown-center" type="button" data-bs-toggle="dropdown"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                     class="bi bi-house-heart-fill" viewBox="0 0 16 16">
+                    <path d="M7.293 1.5a1 1 0 0 1 1.414 0L11 3.793V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v3.293l2.354 2.353a.5.5 0 0 1-.708.707L8 2.207 1.354 8.853a.5.5 0 1 1-.708-.707z"/>
+                    <path d="m14 9.293-6-6-6 6V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5zm-6-.811c1.664-1.673 5.825 1.254 0 5.018-5.825-3.764-1.664-6.691 0-5.018"/>
+                </svg>
+                Home</a></li>
+            <li><a class="dropdown-item" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                     class="bi bi-chat-square-text-fill" viewBox="0 0 16 16">
+                    <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-2.5a1 1 0 0 0-.8.4l-1.9 2.533a1 1 0 0 1-1.6 0L5.3 12.4a1 1 0 0 0-.8-.4H2a2 2 0 0 1-2-2zm3.5 1a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1zm0 2.5a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1zm0 2.5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1z"/>
+                </svg>
+                Supports</a></li>
+        </ul>
+    </div>
+</nav>
+<!--SUPPORT-->
+<div class="container mx-auto">
+    <ul class="list-group">
+        <li class="list-group-item border border-0"><img class="me-3 float-start" src="academywii/academyhappy.png"
+                                                         width="128">
+            <h6 class="mb-2 fw-semibold">Cherry</h6>
+            <p class="mb-1">Dedue!</p>
+        </li>
+        <li class="list-group-item border border-0"><img class="me-3 float-start"
+                                                         src="https://assets.fedatamine.com/3h/face_school/76/0.png"
+                                                         width="128">
+            <h6 class="mb-2 fw-semibold">Dedue</h6>
+            <p class="mb-1">...</p>
+        </li>
+        <li class="list-group-item border border-0"><img class="me-3 float-start" src="academywii/academysad.png"
+                                                         width="128">
+            <h6 class="mb-2 fw-semibold">Cherry</h6>
+            <p class="mb-1">...</p>
+        </li>
+        <li class="list-group-item border border-0"><img class="me-3 float-start"
+                                                         src="https://assets.fedatamine.com/3h/face_school/79/0.png"
+                                                         width="128">
+            <h6 class="mb-2 fw-semibold">Dedue</h6>
+            <p class="mb-1">...</p>
+        </li>
+    </ul>
+</div>
+<!--PAGINATION-->
+<div class="container mx-auto mt-3">
+    <nav aria-label="Page navigation example">
+        <ul class="pagination">
+            <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                </a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">C</a></li>
+            <li class="page-item"><a class="page-link" href="#">C+</a></li>
+            <li class="page-item"><a class="page-link" href="#">B</a></li>
+            <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</div>
+<!--MESSAGES TEST-->
+<h1>Chat Bubbles - iOS style</h1>
+<div class="container chat">
+    <div class="yours messages">
+        <div class="message monster">
+            in case you must be wondering, bald fuck
+        </div>
+        <div class="message fade-in-up-on-scroll">
+            i introduced ria to the greatest invention of mankind:
+        </div>
+        <div class="message last fade-in-up-on-scroll">
+            vodka cruisers
+        </div>
+    </div>
+    <div class="mine messages">
+        <div class="message fade-in-up-on-scroll">
+            fuck you
+        </div>
+        <div class="message fade-in-up-on-scroll">
+            why did you let them drink
+        </div>
+        <div class="message last fade-in-up-on-scroll">
+            and why the FUCK are they in MY apartment
+        </div>
+    </div>
+</div>
+
+<!--NAME SWAP BUTTON TEST-->
+<button type="button" class="btn btn-primary" onclick="myFunction()">Click Me</button>
+<div id="myDIV">Hello</div>
+<script>function myFunction() {
+    var x = document.getElementById("myDIV");
+    if (x.innerHTML === "Hello") {
+        x.innerHTML = "Swapped text!";
+    } else {
+        x.innerHTML = "Hello";
+    }
+} </script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+</html>
