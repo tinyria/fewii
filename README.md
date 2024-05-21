@@ -3,6 +3,7 @@
   <li>made with <a href="https://getbootstrap.com/" target="_blank">Bootstrap 5</a></li>
   <li>cherry icon from <a href="https://www.flaticon.com/" target="_blank">Flaticon</a></li>
   <li>fonts from <A href="https://fonts.google.com/" target="_blank">Google Fonts</a></li>
+  <li><a href=https://favicons.joshuasoileau.com/" target="_blank"turn emojis into favicons</a></li>
 </ul>
 
 <p>if you're looking for the FE3H skill icons i have, i found them from spriters resource then edited all of the files to look like the ingame ones. you probably don't want to do that by hand tho so feel free to just take the ones i already made :P</p>
