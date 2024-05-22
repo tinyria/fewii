@@ -1,0 +1,221 @@
+#swap {
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+#swap:hover {
+    background-color: white;
+    color: #dc3545;
+}
+
+/*nav takes full height above SM*/
+@media (min-width: 576px) {
+    #RAWR {
+        height: 100%;
+    }
+
+    /*sticks nav*/
+    .col-sm-3 {
+        position: fixed;
+        height: 100%;
+        top: 0;
+        z-index: 10;
+    }
+
+    /*push content back into position*/
+    .col-sm-9 {
+        margin-left: 25vw
+    }
+
+    /*stick footer to bottom*/
+    main > footer {
+        position: static;
+        bottom: 0;
+        width: 75vw;
+    }
+
+    #myTab {
+    }
+}
+
+@media (max-width: 576px) {
+    /*nav sticks to top on SM*/
+    .col-sm-3 {
+        position: sticky;
+        top: 0;
+        z-index: 10;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+    #skillsChart {
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    #skillsChart {
+        width: 50%;
+    }
+}
+
+.container-fluid {
+    max-height: 100vh;
+}
+
+#profile, #gallery, #writing, #bonds, #links {
+    min-height: calc(100vh - 56px);
+}
+
+.navbar-brand > img {
+    max-height: 50vh;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.navbar-brand > img:hover {
+    animation: flip 1s infinite;
+}
+
+@keyframes flip {
+    0% {
+        transform: perspective(1000px) rotateY(0);
+    }
+    50% {
+        transform: perspective(1000px) rotateY(180deg);
+    }
+    100% {
+        transform: perspective(1000px) rotateY(360deg);
+    }
+}
+
+.accordion {
+    --bs-accordion-color: #ede9e5;
+    --bs-accordion-btn-color: #595959;
+    --bs-accordion-btn-bg: #ede9e5;
+    --bs-accordion-active-color: #595959;
+    --bs-accordion-active-bg: #ede9e5;
+    --bs-accordion-border-color: #ede9e5;
+}
+
+
+nav {
+    background-color: #876e67;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #f7a0a6;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.nav-pills .nav-link {
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.nav-pills .nav-link:hover {
+    background-color: white;
+    color: #876e67 !important;
+}
+
+.nav-pills .nav-link.active:hover {
+    background-color: white;
+    color: #f7a0a6 !important;
+}
+
+.nav-link > span {
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+h4, .card-header {
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #595959;
+}
+
+.th-custom {
+    font-family: "Alata", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    color: #dc3545 !important;
+}
+
+td {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    color: #595959 !important;
+}
+
+h6 {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+h2 {
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #595959;
+}
+
+p, footer {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    color: #595959;
+}
+
+.btn-group > label {
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.card > a, .card > ul > li, .card-footer {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    color: #595959 !important;
+}
+
+.card {
+    --bs-card-cap-bg: #d3cecc;
+    --bs-card-border-color: #d3cecc;
+    --bs-card-border-width: 2px;
+}
+
+.card > ul > li .text-secondary {
+    color: #dc3545;
+}
+
+small {
+    color: #876e67;
+}
+
+footer {
+    background-color: #ede9e5;
+}
+
+/* tab-pane fade */
+.tab-pane {
+    transition: opacity 0.3s ease-in-out; /* Adjust the duration and easing here */
+}
+
+.tab-pane.show {
+    opacity: 1;
+}
+
+.tab-pane:not(.show) {
+    opacity: 0;
+}

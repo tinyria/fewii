@@ -1,0 +1,851 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ria's OC Guide</title>
+    <link rel="icon"
+          href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍒</text></svg>"
+    />
+    <!--Popper must be before Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/@floating-ui/core@1.6.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@floating-ui/dom@1.6.1"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <!--FLATICONS-->
+    <link rel='stylesheet'
+          href='https://cdn-uicons.flaticon.com/2.3.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+    <!--BS ICONS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--FONTS-->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Alata&family=Bree+Serif&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+    </style>
+</head>
+<body>
+<!--BUTTON-->
+<div class="position-fixed bottom-0 end-0 mb-3 me-4 z-3">
+    <button type="button" class="btn btn-danger btn-large" id="swap" onclick="toggleNames()">
+        <i class="fi fi-sr-cherry"></i>
+    </button>
+</div>
+<!--CONTENT-->
+<div class="container-fluid p-0 vh-100 overflow-x-hidden">
+    <div class="row g-0">
+        <div class="col-sm-3">
+            <nav class="d-flex flex-sm-column p-3 me-auto justify-content-center" id="RAWR">
+                <a class="navbar-brand text-center mt-4 mb-5 d-none d-sm-inline" href="https://www.tumblr.com/maynope00"
+                   target="_blank">
+                    <img class="img-fluid"
+                         src="https://f2.toyhou.se/file/f2-toyhou-se/images/82313939_cT7E8fo1vZtRkuG.png"
+                         alt="black and white drawing of cherry">
+                    <h6 class="text-center text-white fw-medium text-wrap my-auto">by @maynope00</h6>
+                </a>
+                <ul class="d-flex flex-sm-column nav nav-pills me-auto mb-auto w-100 justify-content-evenly" id="myTab"
+                    role="tablist" aria-orientation="undefined">
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link text-white active" href="#" id="profileTab" data-bs-toggle="pill"
+                           data-bs-target="#profile">
+                            <i class="fs-5 bi bi-person-circle"></i><span
+                                class="fs-5 ms-2 d-none d-sm-inline">Profile</span>
+                        </a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link text-white" href="#" id="galleryTab" data-bs-toggle="pill"
+                           data-bs-target="#gallery" role="tab">
+                            <i class="fs-5 bi bi-images"></i><span class="fs-5 ms-2 d-none d-sm-inline">Gallery</span>
+                        </a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link text-white" href="#" id="writingTab" data-bs-toggle="pill"
+                           data-bs-target="#writing" role="tab">
+                            <i class="fs-5 bi bi-journal-text"></i><span
+                                class="fs-5 ms-2 d-none d-sm-inline">Writing</span>
+                        </a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link text-white" href="#" id="bondsTab" data-bs-toggle="pill"
+                           data-bs-target="#bonds" role="tab">
+                            <i class="fs-5 bi bi-postage-heart"></i><span
+                                class="fs-5 ms-2 d-none d-sm-inline">Bonds</span>
+                        </a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link text-white" href="#" id="linksTab" data-bs-toggle="pill"
+                           data-bs-target="#links" role="tab">
+                            <i class="fs-5 bi bi-link"></i><span class="fs-5 ms-2 d-none d-sm-inline">Links</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <main class="col-sm-9 d-flex flex-column mh-100 tab-content">
+            <div class="tab-pane fade show active p-4 pt-5" id="profile" role="tabpanel" tabindex="0">
+                <img class="img-fluid col-md-6 col-lg-4
+                 float-md-end mb-3 ms-md-3"
+                     src="https://f2.toyhou.se/file/f2-toyhou-se/images/76140606_dO74a6OYHDxoUlI.png"
+                     alt="Bust of Cherry in FE3H style">
+                <h2><span class="name">Cherry</span> Perrineau</h2>
+                <h4><small>An absent-minded girl.</small></h4>
+                <!--ABOUT-->
+                <div class="table-responsive my-4">
+                    <table class="table">
+                        <tbody>
+                        <tr>
+                            <th class="th-custom" scope="row">Pronouns</th>
+                            <td>they/them, she/her</td>
+                        </tr>
+                        <tr>
+                            <th class="th-custom" scope="row">Status</th>
+                            <td>Commoner</td>
+                        </tr>
+                        <tr>
+                            <th class="th-custom" scope="row">Age</th>
+                            <td>16-17 » 21-22</td>
+                        </tr>
+                        <tr>
+                            <th class="th-custom" scope="row">Birthday</th>
+                            <td>14th of the Pegasus Moon / February 14</td>
+                        </tr>
+                        <tr>
+                            <th class="th-custom" scope="row">Height</th>
+                            <td>165 cm / 5'4"</td>
+                        </tr>
+                        <tr>
+                            <th class="th-custom" scope="row">Nationality</th>
+                            <td>Leicester Alliance</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!--PROFILE-->
+                <p>An archer for the Golden Deer, although they can be recruited to the other classes. Despite their
+                    best efforts, there isn't much they're good at, besides the bow... In short, <span class="name">Cherry</span>
+                    is the Golden Deer's local girlfailure. In their efforts to improve, sometimes they take studying
+                    and training too seriously!</p>
+                <p>Friendly but shy upon meeting new people. <span class="name">Cherry</span> wears their heart on their
+                    sleeve and is easily embarrassed. Outside of the battlefield, they have terrible luck — they often
+                    find themself in troubling situations.</p>
+                <p><span class="name">Cherry</span> is best known among their classmates for being kind-hearted,
+                    horribly oblivious, and dangerously clumsy.</p>
+                <!--LORE-->
+                <h4 class="fw-semibold my-4 text-danger">✦ Lore</h4>
+                <div class="accordion accordion-flush" id="lore">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#earlyLife" aria-expanded="false" aria-controls="earlyLife">
+                                ╰┈➤ Early Life
+                            </button>
+                        </h2>
+                        <div id="earlyLife" class="accordion-collapse collapse">
+                            <div class="accordion-body py-3 mx-3">
+                                <p><span class="name">Cherry</span> is the only child to House Lucero, a minor noble
+                                    family in South Faerghus. House Lucero, similarly to House Daphnel, hasn't had a
+                                    crest-bearing heir for several generations, contributing to their decline. As a
+                                    result, when <span class="name">Cherry</span> was born, their parents were
+                                    disappointed by their lack of a crest.</p>
+                                <p>Their parents treat them coldly and leave the care-taking to their servants — the
+                                    Hidalgo family. The Hidalgo's are a family of commoners serving House Lucero. The
+                                    parents look after <span class="name">Cherry</span>, while their son and daughter
+                                    like to play with them.</p>
+                                <p>Eventually fed up with the Lucero's idea of "family", the Hidalgo's make plans to
+                                    leave South Faerghus with <span class="name">Cherry</span>. <span class="name">Cherry</span>'s
+                                    parents don't stop them for leaving, nor do they bother looking for their child for
+                                    the next 20 years. The Hidalgo's change their last name from Hidalgo to Perrineau,
+                                    and settle in Gloucester Territory.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#paralogue" aria-expanded="false" aria-controls="paralogue">
+                                ╰┈➤ Paralogue
+                            </button>
+                        </h2>
+                        <div id="paralogue" class="accordion-collapse collapse">
+                            <div class="accordion-body py-3 mx-3">
+                                <p>Sometime during the war, <span class="name">Cherry</span> receives a letter from
+                                    their parents. After failing
+                                    to bear any more children, House Lucero seeks out the daughter they gave away and
+                                    demands them back. They are desperate to have an heir — even a crestless one — to
+                                    continue their lineage. <span class="name">Cherry</span>
+                                    returns to their now unfamiliar family estate in South Faerghus to confront their
+                                    birth parents.</p>
+                                <p>Entering a dilapidated castle, <span class="name">Cherry</span> and their classmates
+                                    must defeat hired bandits to reach the main room where their parents reside. They
+                                    pass by portraits veiled in dust, echoes of a past long gone. Faces of their
+                                    parents, and those who came before them, watch them as they make their way to the
+                                    main room.</p>
+                                <p>Not a single portrait of their daughter lines the faded walls.</p>
+                                <p>Pushing open the doors into the main room,<span class="name">Cherry</span> finally
+                                    stands before their parents.
+                                    Their parents, enthusiastic to see them, reach into their pockets and offer them a
+                                    gift — a Crest Stone. They've spent the last of their gold trying to procure it,
+                                    confident that its power could fix their daughter.</p>
+                                <p>Turning away, <span class="name">Cherry</span> declines the gift. The life of a
+                                    commoner is kinder than the one their parents offer. Enraged, their parents move to
+                                    attack <span class="name">Cherry</span>. However, the Crest Stone transforms one of
+                                    them into a Giant Wolf. The Demonic Beast kills the other parent before turning on
+                                    <span class="name">Cherry</span>'s house.</p>
+                                <p>House Lucero falls. After defeating the Giant Wolf, <span class="name">Cherry</span>
+                                    continues to live happily as a commoner with the Perrineau's.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#postWar" aria-expanded="false" aria-controls="postWar">
+                                ╰┈➤ Post-Timeskip
+                            </button>
+                        </h2>
+                        <div id="postWar" class="accordion-collapse collapse">
+                            <div class="accordion-body py-3 mx-3">
+                                <p>After the battle of Garreg Mach, <span class="name">Cherry</span> returns to their
+                                    home in Gloucester. They continue to help their parents out at the inn. <span
+                                            class="name">Cherry</span> is tasked with cooking and gathering ingredients.
+                                    The latter has contributed to their rather
+                                    hectic life — after having accidentally saved several townsfolk from Wild Beasts on
+                                    their hunts, they became known as the "Red Caped
+                                    Savior".
+                                </p>
+                                <p>Not many of their classmates realize this. Their ditsy personality is a far cry from
+                                    their heroic image. Some people, like Claude, like to use their new epithet to poke
+                                    fun at them.</p>
+                                <p>After the war ends, they either continue to stay with their family or set out to
+                                    explore the
+                                    world.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--SKILLS-->
+                <h4 class="fw-semibold my-4 text-danger">✦ Skills</h4>
+                <p>Due to their family running an inn, <span class="name">Cherry</span> has a proficiency in cooking!
+                    They would also rather <span class="fst-italic">die</span> than sing in public — they dislike
+                    choir practice heavily and run away to the bathroom whenever possible.
+                </p>
+                <div class="table-responsive mx-auto mt-4" id="skillsChart">
+                    <table class="table table-sm table-borderless">
+                        <caption>Although they like animals, they're afraid of flying.</caption>
+                        <tbody>
+                        <tr>
+                            <th scope="row"><img class="img-fluid" src="skills/sword.png" alt="FE3H sword icon"></th>
+                            <td><img class="img-fluid" src="skills/lance.png" alt="FE3H lance icon"></td>
+                            <td><img class="img-fluid" src="skills/axe.png" alt="FE3H axe icon"></td>
+                            <td><img class="img-fluid" src="skills/bow.png" alt="FE3H bow icon"></td>
+                            <td><img class="img-fluid" src="skills/gauntlets.png" alt="FE3H gauntlets icon"></td>
+                            <td><img class="img-fluid" src="skills/reason.png" alt="FE3H reason icon"></td>
+                            <td><img class="img-fluid" src="skills/faith.png" alt="FE3H faith icon"></td>
+                            <td><img class="img-fluid" src="skills/authority.png" alt="FE3H authority icon"></td>
+                            <td><img class="img-fluid" src="skills/heavy%20armor.png" alt="FE3H heavy armor icon"></td>
+                            <td><img class="img-fluid" src="skills/riding.png" alt="FE3H riding icon"></td>
+                            <td><img class="img-fluid" src="skills/flying.png" alt="FE3H flying icon"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row"><img class="img-fluid" src="skills/strength.png" alt="FE3H strength icon">
+                            </th>
+                            <td></td>
+                            <td><img class="img-fluid" src="skills/weakness.png" alt="FE3H weakness icon"></td>
+                            <td><img class="img-fluid" src="skills/strength.png" alt="FE3H strength icon"></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td><img class="img-fluid" src="skills/weakness.png" alt="FE3H weakness icon"></td>
+                            <td><img class="img-fluid" src="skills/weakness.png" alt="FE3H weakness icon"></td>
+                            <td><img class="img-fluid" src="skills/stars.png" alt="FE3H budding talent icon"></td>
+                            <td><img class="img-fluid" src="skills/weakness.png" alt="FE3H weakness icon"></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!--PERSONAL SKILL-->
+                <h4 class="fw-semibold text-danger">✦ Personal Skill</h4>
+                <div class="d-flex my-4 align-items-center">
+                    <div class="flex-shrink-0">
+                        <img class="img-fluid" src="skills/personal.png" alt="FE3H personal skill icon">
+                    </div>
+                    <div class="flex-grow-1 ms-3">
+                        <p class="fw-bold">Missfortune</p>
+                        <p> If this unit's attack misses or deals 0 damage, all allies within a 5 tile range are
+                            granted +2 Strength and +2 Magic for one turn.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade p-4 pt-5" id="gallery" role="tabpanel" tabindex="0">
+                <div class="card mb-4">
+                    <h4 class="card-header">
+                        Pre-timeskip
+                    </h4>
+                    <img class="img-fluid"
+                         src="https://f2.toyhou.se/file/f2-toyhou-se/images/82275970_vlIxM2I0yjCHFCV.jpg"
+                         alt="front and back view of pre-timeskip design">
+                </div>
+                <div class="card mb-4">
+                    <h4 class="card-header">
+                        Post-timeskip
+                    </h4>
+                    <img class="img-fluid"
+                         src="https://f2.toyhou.se/file/f2-toyhou-se/images/82275991_kHOJ2TAGECxxGbQ.jpg"
+                         alt="front and close up of post-timeskip design">
+                </div>
+                <div class="card mb-4">
+                    <h4 class="card-header">
+                        Pet AU ᓚ₍ ^.⩊.^₎
+                    </h4>
+                    <img class="img-fluid"
+                         src="https://f2.toyhou.se/file/f2-toyhou-se/images/82276580_6N9nIBvqg2khAtV.png?1716158739"
+                         alt="pet AU designs">
+                </div>
+            </div>
+            <div class="tab-pane fade p-4 pt-5" id="writing" role="tabpanel" tabindex="0">
+                <div class="btn-group d-flex justify-content-center align-items-center mb-3">
+                    <input type="checkbox" class="btn-check active" id="showAll" autocomplete="off" checked>
+                    <label class="btn btn-outline-danger" for="showAll">show all</label>
+                    <input type="checkbox" class="btn-check" id="sylwii" autocomplete="off">
+                    <label class="btn btn-outline-danger" for="sylwii">sylwii</label>
+                    <input type="checkbox" class="btn-check" id="pre" autocomplete="off">
+                    <label class="btn btn-outline-danger" for="pre">pre<span
+                            class="d-none d-md-inline">-timeskip</span></label>
+                    <input type="checkbox" class="btn-check" id="post" autocomplete="off">
+                    <label class="btn btn-outline-danger" for="post">post<span
+                            class="d-none d-md-inline">-timeskip</span></label>
+                    <input type="checkbox" class="btn-check" id="OC" autocomplete="off">
+                    <label class="btn btn-outline-danger" for="OC">OC<span
+                            class="d-none d-md-inline"> interactions</span></label>
+                    <input type="checkbox" class="btn-check" id="AU" autocomplete="off">
+                    <label class="btn btn-outline-danger" for="AU">AU</label>
+                </div>
+                <div class="filterContent row row-cols-1 g-4 mt-2" data-masonry='{"percentPosition": true }'>
+                    <div class="col-md-6 col-lg-4" data-filter="OC pre">
+                        <div class="card text-center mb-4">
+                            <a class="text-decoration-none text-reset"
+                               href="https://archiveofourown.org/works/52149085/chapters/131901838" target="_blank"><h5
+                                    class="fw-semibold card-header">Freeze the
+                                day</h5>
+                            </a>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">by @incompletenova</li>
+                                <li class="list-group-item text-start">It had been one day when she had been chatting
+                                    with Yuri in the little yard in front of the dorms, and he had joked that it would
+                                    be funny to hit the next person who came out of their room with a snowball to the
+                                    face, and Minette, influenced by chaos, had chuckled and formed a snowball.
+                                </li>
+                            </ul>
+                            <div class="card-footer">
+                                <span class="fw-bold">tags:</span> OC interactions / pre-timeskip / light-hearted
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4" data-filter="OC pre">
+                        <div class="card text-center mb-4">
+                            <a class="text-decoration-none text-reset"
+                               href="https://archiveofourown.org/works/52149085/chapters/131903533" target="_blank"><h5
+                                    class="fw-semibold card-header">Whoops, there is poison in that soup now</h5>
+                            </a>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">by @incompletenova</li>
+                                <li class="list-group-item text-start">’I am so sorry!’’ Ria whispered to her, careful
+                                    not to make
+                                    too much noise before Seteth would give them even more detention.<br><br>
+                                    "It’s okay! You couldn’t have known that that plant emitted… semi-toxic fumes when
+                                    boiled."
+                                </li>
+                            </ul>
+                            <div class="card-footer">
+                                <span class="fw-bold">tags:</span> OC interactions / pre-timeskip / light-hearted
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4" data-filter="OC post">
+                        <div class="card text-center mb-4">
+                            <a class="text-decoration-none text-reset"
+                               href="https://archiveofourown.org/works/52149085/chapters/131970295" target="_blank"><h5
+                                    class="fw-semibold card-header">A new blossom grows</h5>
+                            </a>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">by @incompletenova</li>
+                                <li class="list-group-item text-start fst-italic"> Dear Minette,<br><br>
+                                    I’d be delighted if you could join us for the holidays up in the Itha Plains, it has
+                                    been too long since we have last seen each other. Please feel free to bring Yuri and
+                                    Felix along as well. Dimitri would be glad to see them again. I hope you can make
+                                    it, despite your busy schedule.<br><br>
+                                    Your friend, Lorelei.
+                                </li>
+                            </ul>
+                            <div class="card-footer">
+                                <span class="fw-bold">tags:</span> OC interactions / post-timeskip / light-hearted
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4" data-filter="sylwii pre">
+                        <div class="card text-center mb-4">
+                            <a class="text-decoration-none text-reset"
+                               href="https://archiveofourown.org/works/51751750/chapters/131210875" target="_blank"><h5
+                                    class="fw-semibold card-header">So How Long Will It Take?</h5>
+                            </a>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">by @hahnerd</li>
+                                <li class="list-group-item text-start">Before he could leave though, Leonie
+                                    grabbed him by his shirt collar.<br><br>
+                                    “I’m watching you Gautier, you better not try anything with her. That girl is too
+                                    sweet to notice flirting if it bit her in the ass, so if you dare do anything else.
+                                    You won’t just have me to deal with.” Leonie glared at him, before shoving him aside
+                                    and stalking further into the greenhouse.<br><br>
+                                    Wait, had she not even realized he’d been flirting with her that entire time?!
+                                </li>
+                            </ul>
+                            <div class="card-footer">
+                                <span class="fw-bold">tags:</span> sylwii / pre-timeskip / 5+1
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4" data-filter="sylwii pre">
+                        <div class="card text-center mb-4">
+                            <a class="text-decoration-none text-reset"
+                               href="https://docs.google.com/document/d/1TBRpFzGrmnaUkBP_cLgdtCKpEYnlQ6dKLBBSdAZkeBE/edit"
+                               target="_blank"><h5
+                                    class="fw-semibold card-header">Butterflies</h5>
+                            </a>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">by @yeet_.</li>
+                                <li class="list-group-item text-start">“WHERE AM I?” Ria jolts upwards, their head
+                                    wrapped
+                                    in a bandage.
+                                </li>
+                            </ul>
+                            <div class="card-footer">
+                                <span class="fw-bold">tags:</span> sylwii / pre-timeskip / light-hearted
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4" data-filter="sylwii post OC">
+                        <div class="card text-center mb-4">
+                            <a class="text-decoration-none text-reset"
+                               href="https://archiveofourown.org/works/52273507/chapters/132231475"
+                               target="_blank"><h5
+                                    class="fw-semibold card-header">tea time gossip</h5>
+                            </a>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">by @ophelries</li>
+                                <li class="list-group-item text-start fst-italic">Is there tea to repair a failing
+                                    relationship?! By
+                                    the Goddess, they hope they will never have to need that.
+                                </li>
+                            </ul>
+                            <div class="card-footer">
+                                <span class="fw-bold">tags:</span> sylwii / post-timeskip / OC interactions /
+                                light-hearted
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4" data-filter="sylwii pre AU">
+                        <div class="card text-center mb-4">
+                            <a class="text-decoration-none text-reset"
+                               href="https://docs.google.com/document/d/1OarWiLwkDGz7-GSH7gie60WnCiNeo25v1ST9Koqgido/edit"
+                               target="_blank"><h5
+                                    class="fw-semibold card-header">worm supports</h5>
+                            </a>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">by @irax</li>
+                                <li class="list-group-item text-start">“I’m just joking!” Sylworm replied.
+                                    “Anyway, I hope you’ll stop avoiding me. Having a fair worm such as yourself treat
+                                    me
+                                    like that is bad for my heart.”<br><br>
+                                    “Oh no! What’s wrong with your heart?” Wiiorm rushed to his side in case he suddenly
+                                    fainted. A heart condition sounded like a very serious problem.
+                                </li>
+                                <li class="list-group-item">
+                                    <a href="https://docs.google.com/document/d/1OarWiLwkDGz7-GSH7gie60WnCiNeo25v1ST9Koqgido/edit"
+                                       class="card-link">C Support</a>
+                                    <a href="https://docs.google.com/document/d/13cljnV0PGmnabTCkw4fk-YwJesTI8vcqFD_hmgVRxZk/edit"
+                                       class="card-link">C+ Support</a>
+                                </li>
+                            </ul>
+                            <div class="card-footer">
+                                <span class="fw-bold">tags:</span> sylwii / pre-timeskip / worm AU / light-hearted
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4" data-filter="sylwii pre">
+                        <div class="card text-center mb-4">
+                            <a class="text-decoration-none text-reset"
+                               href="https://artpurrposes-2173.slite.page/p/4raVwNaPEFgCMU/5-minute-blurb"
+                               target="_blank"><h5
+                                    class="fw-semibold card-header">5 minute blurb</h5>
+                            </a>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">by @atiredfellow</li>
+                                <li class="list-group-item text-start">After the lesson of archery has concluded Cherry
+                                    went to the dining hall for a short break and grab a quick snack as her tummy was on
+                                    a craving for something sweet.
+                                </li>
+                            </ul>
+                            <div class="card-footer">
+                                <span class="fw-bold">tags:</span> sylwii / pre-timeskip / light-hearted
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4" data-filter="OC AU">
+                        <div class="card text-center mb-4">
+                            <a class="text-decoration-none text-reset"
+                               href="https://artpurrposes-2173.slite.page/p/L2u-urdGejOkB6/Tidal-Ways"
+                               target="_blank"><h5
+                                    class="fw-semibold card-header">Tidal Ways</h5>
+                            </a>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">by @partlyshunny</li>
+                                <li class="list-group-item text-start">"It's true, babygirl," Eliane sighed, suddenly
+                                    plopping down next to them
+                                    with enough force to pop Minette slightly off-balance. "You got it real bad."
+                                </li>
+                            </ul>
+                            <div class="card-footer">
+                                <span class="fw-bold">tags:</span> OC interactions / modern AU / light-hearted
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4" data-filter="OC AU">
+                        <div class="card text-center mb-4">
+                            <a class="text-decoration-none text-reset"
+                               href="https://artpurrposes-2173.slite.page/p/0bzEnVraUHJLKm/listen-minette"
+                               target="_blank"><h5
+                                    class="fw-semibold card-header">Listen Minette</h5>
+                            </a>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">by @partlyshunny</li>
+                                <li class="list-group-item text-start">"Eliane was right," she muttered. "Girl, you're
+                                    in deep."<br><br>
+                                    "I ASKED FOR NO SHAME!" Minette wailed, throwing herself back into the futon with
+                                    all the force of an atomic bomb, and the accompanying fallout of dust motes to
+                                    match. She dragged her sweatshirt hood over her head and yanked the drawstrings like
+                                    she was trying to suffocate herself, and then possibly everyone else.
+                                </li>
+                            </ul>
+                            <div class="card-footer">
+                                <span class="fw-bold">tags:</span> OC interactions / band AU / light-hearted
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4" data-filter="OC AU">
+                        <div class="card text-center mb-4">
+                            <a class="text-decoration-none text-reset"
+                               href="https://artpurrposes-2173.slite.page/p/0pNVOaGXlI7GfP/The-Art-of-Pining"
+                               target="_blank"><h5
+                                    class="fw-semibold card-header">The Art of Pining</h5>
+                            </a>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">by @partlyshunny</li>
+                                <li class="list-group-item text-start">"We're just, um, bakers," Spathi said. "We make
+                                    sweet pastries."<br><br>
+                                    Eliane could only think of one sweet pastry she wanted to bake right now, and it
+                                    wasn't a recipe to be repeated in polite company.
+                                </li>
+                            </ul>
+                            <div class="card-footer">
+                                <span class="fw-bold">tags:</span> OC interactions / band AU / light-hearted
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4" data-filter="sylwii pre">
+                        <div class="card text-center mb-4">
+                            <a class="text-decoration-none text-reset"
+                               href="https://artpurrposes-2173.slite.page/p/ZodWz-AaA5JUos/Sincerity"
+                               target="_blank"><h5
+                                    class="fw-semibold card-header">Sincerity</h5>
+                            </a>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">by @z_cerulean</li>
+                                <li class="list-group-item text-start">Apparently, it was his fault. In fairness, what
+                                    wasn’t his fault was a lesser value. Dimitri, in an
+                                    attempt to make good on his side of a bargain between the two of them, had taken to
+                                    “loosening up” as Sylvain had put it. And, in his infinite wisdom, had attempted
+                                    winning the
+                                    fancy of Cherry… exactly as House Gautier’s prize son would have.
+                                </li>
+                            </ul>
+                            <div class="card-footer">
+                                <span class="fw-bold">tags:</span> sylwii / pre-timeskip / light-hearted
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4" data-filter="OC pre">
+                        <div class="card text-center mb-4">
+                            <a class="text-decoration-none text-reset"
+                               href="https://docs.google.com/document/d/1Rr0d3w6X_oTbrkptQhk3NqGsagVbfZmxM9Ue4QsICbM/edit"
+                               target="_blank"><h5
+                                    class="fw-semibold card-header">Party Nuclear</h5>
+                            </a>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">by @yeet_.</li>
+                                <li class="list-group-item text-start">The Battle of the Eagle and Lion, a tradition in
+                                    the Officers Academy of Garrag Mach. The students from different houses, backgrounds
+                                    and skill sets come together to wage a faux war against each other.
+                                </li>
+                            </ul>
+                            <div class="card-footer">
+                                <span class="fw-bold">tags:</span> OC interactions / pre-timeskip / light-hearted
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4" data-filter="OC pre">
+                        <div class="card text-center mb-4">
+                            <a class="text-decoration-none text-reset"
+                               href="https://archiveofourown.org/works/52505353"
+                               target="_blank"><h5
+                                    class="fw-semibold card-header">plant a seed in your mind that bears a remnant of
+                                me</h5>
+                            </a>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">by @ophelries</li>
+                                <li class="list-group-item text-start">Cherry has begun scanning the different desserts
+                                    shown behind the glass. Meanwhile, Minette tilts her head; the person behind the
+                                    counter, though their back may be turned, is looking strangely familiar. It’s not
+                                    often you will see lavender hair in Fhirdiad…<br><br>
+                                    Finally, they turn around. A light bulb flickers alive in her head.<br><br>
+                                    It’s Yuri. The lead vocalist of Dimitri’s band.<br><br>
+                                    <span class="fst-italic">Oh.</span>
+                                </li>
+                            </ul>
+                            <div class="card-footer">
+                                <span class="fw-bold">tags:</span> OC interactions / pre-timeskip / light-hearted
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4" data-filter="OC post">
+                        <div class="card text-center mb-4">
+                            <a class="text-decoration-none text-reset"
+                               href="https://docs.google.com/document/d/1VaNfbltx2JKoa6JMhmndnFHtsIElD1O2d3dmocWrzkQ/edit"
+                               target="_blank"><h5
+                                    class="fw-semibold card-header">Last Attack</h5>
+                            </a>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">by @incompletenova</li>
+                                <li class="list-group-item text-start">And as they stood on this sandy beach, Minette
+                                    heard nothing but the soft waves softly swooshing.<br><br>
+                                    There is no clanging of weapons, no one barking orders, and no soldiers shouting in
+                                    pain.
+                                </li>
+                            </ul>
+                            <div class="card-footer">
+                                <span class="fw-bold">tags:</span> OC interactions / post-timeskip / hurt/comfort
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4" data-filter="sylwii OC AU">
+                        <div class="card text-center mb-4">
+                            <a class="text-decoration-none text-reset"
+                               href="https://toyhou.se/~literature/220704.double-date"
+                               target="_blank"><h5
+                                    class="fw-semibold card-header">Double Date</h5>
+                            </a>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">by alice</li>
+                                <li class="list-group-item text-start">Dimitri narrows his eyes, sensing a hidden
+                                    agenda.<br><br>
+                                    "What are you really getting at, Sylvain?”<br><br>
+                                    Well, it’s now or never. Sylvain puts his hands together and takes a deep
+                                    breath.<br><br>
+                                    “Okay, don’t freak out. But what if you asked Inna out. Right now.”
+                                </li>
+                            </ul>
+                            <div class="card-footer">
+                                <span class="fw-bold">tags:</span> sylwii / OC interactions / modern AU
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4" data-filter="sylwii">
+                        <div class="card text-center mb-4">
+                            <a class="text-decoration-none text-reset"
+                               href="https://toyhou.se/~literature/220704.double-date"
+                               target="_blank"><h5
+                                    class="fw-semibold card-header">Valentines Fail</h5>
+                            </a>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">by @hahnerd</li>
+                                <li class="list-group-item text-start">“Cherry-?”<br><br>
+                                    “It’s Valentine's day?!”
+                                </li>
+                            </ul>
+                            <div class="card-footer">
+                                <span class="fw-bold">tags:</span> sylwii / fluff / light-hearted
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade p-4 pt-5" id="bonds" role="tabpanel" tabindex="0">
+                <h2 class="mb-3">Sylvain</h2>
+                <h4 class="fw-semibold mb-3 text-danger">✦ Overview</h4>
+                <p>Sylvain has little interest in those he flirts with. The same can be said for when he attempts to
+                    make a
+                    move on <span class="name">Cherry</span>. The red-head remembers, at most, three things about them:
+                    a
+                    bright cape, pigtails that are deceivingly close to Hilda's, and their name. After their short-lived
+                    encounter, Sylvain can now confidently say he remembers four things about them. Maybe even five.</p>
+                <p>A red cape fastened together with a ribbon, braided pigtails, a gentle smile, and a mind so horribly
+                    dense Sylvain thinks he's found something not even His Highness could break.</p>
+                <p>Oh, yeah, and their name.</p>
+                <p>At first, a strange fascination with their obliviousness drives Sylvain's flirting attempts. There's
+                    just no way – everyone on campus knows about Sylvain and his tendencies. He's a cautionary tale
+                    passed
+                    around in warning.</p>
+                <p>Yet, <span class="name">Cherry</span> sees him as nothing more as a classmate and a good friend.</p>
+                <p>The concept of romance has never flitted across their mind, save for the occasional novel they stumble
+                    across in the library. In their eyes, Sylvain is just…Sylvain.</p>
+                <p>Nothing more and nothing less.</p>
+                <p>Well, Sylvain supposes he could start with that for once – being just himself.</p>
+                <h4 class="fw-semibold mb-3 text-danger">✦ First Impression</h4>
+                <p>Spotting pigtails and a bright red cape, Sylvain swiftly closes in on his next prey. He greets them
+                    with the usual fare – a charming smile and meaningless compliments.</p>
+                <p>"Hey, <span class="name">Cherry</span>. You know, I don't think I've ever seen a girl as beautiful as
+                    you before."</p>
+                <p>Sylvain has met a lot of girls. Studious like Annette, easily frightened like Bernadetta – he would
+                    go on, but few can be bothered to list nearly the entire roster of attending students. Occasionally,
+                    there is the rare girl who sees right through him. Looking at brown hair one or two shades too
+                    light, Sylvain thinks of an equally flirtatious singer.</p>
+                <p>"Oh – Sylvain!" Spinning around, the girl gives him a small wave. His greeting must've settled in a
+                    few seconds too late – <span class="name">Cherry</span>'s eyebrows furrow as they turn over his
+                    words. They tilt their head to
+                    the side. A small frown pulls down at the corners of their mouth.</p>
+                <p>Bracing himself, Sylvain shoots them a carefully placed smile.</p>
+                <p>Finally, <span class="name">Cherry</span> speaks.</p>
+                <p>"But we have classes together five days a week?"</p>
+                <p>For a moment, his smile wavers. The curve of his lips gives way to a simple "O" before twisting in
+                    amusement.</p>
+                <p>Sylvain has met a lot of girls, but few this…oblivious.</p>
+            </div>
+            <div class="tab-pane fade p-4 pt-5" id="links" role="tabpanel" tabindex="0">
+                <p>Thanks for reading my silly little OC Guide! If you
+                    experience any
+                    issues with the website, let me know on Discord.</p>
+                <div class="list-group list-group-flush pt-4">
+                    <a href="https://github.com/tinyria/wiibsite" class="list-group-item list-group-item-action"
+                       target="_blank">
+                        <p class="fw-bold">💻 ➤ Github Repository</p>
+                        <p class="ms-4">Scroll down to the README for information on what libraries I used, etc.</p>
+                    </a>
+                    <a href="https://toyhou.se/22376903.wii/24478387.fescuffle"
+                       class="list-group-item list-group-item-action" target="_blank">
+                        <p class="fw-bold">🎨 ➤ Their Toyhouse</p>
+                        <p class="ms-4">All the art I've received of <span class="name">Cherry</span> during FE Scuffle!
+                        </p>
+                    </a>
+                    <a href="https://artpurrposes-2173.slite.page/p/HM85VWfZSODT9D/love-RIA-S-OC-GUIDE-love"
+                       class="list-group-item list-group-item-action"
+                       target="_blank">
+                        <p class="fw-bold">🌟 ➤ Slite OC Guide</p>
+                        <p class="ms-4">Their old OC Guide! A full list of all the writing attacks I've received during
+                            FE Scuffle,
+                            <span class="fst-italic">including non-OC works</span>, can be found in the "WRITING"
+                            section. There is slightly different information in the old guide.</p>
+                    </a>
+                    <a class="list-group-item list-group-item-action" href="https://www.flaticon.com/uicons"
+                       target="_blank">
+                        <p class="fw-bold">🍒 ➤ Flaticon</p>
+                        <p class="ms-4">The cherry icon used is from Flaticon! All other
+                            icons used are from Bootstrap.</p>
+                    </a>
+                </div>
+            </div>
+            <footer class="text-center py-3">
+                <div>
+                    <!--do not change SPAN-->
+                    <span class="fs-6">Website by <a
+                            class="text-decoration-none text-reset"
+                            href="https://twitter.com/_geummi" target="_blank">@_geummi</a></span>
+                </div>
+            </footer>
+        </main>
+    </div>
+</div>
+<!--BOOTSTRAP-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script> //writing tab masonry
+document.addEventListener("DOMContentLoaded", function () {
+    let writingMasonry = new Masonry('#writing .filterContent', {
+        itemSelector: '.col-lg-4',
+        percentPosition: true
+    });
+
+    function filterCards() {
+        const selectedFilters = Array.from(document.querySelectorAll('.btn-check:checked')).map(checkbox => checkbox.id);
+        const cards = document.querySelectorAll('#writing .col-lg-4');
+
+        cards.forEach(function (card) {
+            const filters = card.getAttribute('data-filter').split(' ');
+            const show = selectedFilters.includes('showAll') || selectedFilters.every(filter => filters.includes(filter));
+            card.style.display = show ? "" : "none";
+        });
+
+        let columnWidth;
+        if (window.innerWidth < 992) { // Medium breakpoint
+            writingMasonry.options.itemSelector = '.col-md-6';
+            columnWidth = writingMasonry.element.clientWidth / 2;
+        } else if (window.innerWidth < 576) { // Small breakpoint
+            writingMasonry.options.itemSelector = '.col-sm-12';
+            columnWidth = writingMasonry.element.clientWidth;
+        } else { // Large breakpoint and above
+            writingMasonry.options.itemSelector = '.col-lg-4';
+            columnWidth = writingMasonry.element.clientWidth / 3;
+        }
+
+        writingMasonry.options.columnWidth = columnWidth;
+        writingMasonry.layout();
+
+        // Check if all checkboxes are unchecked
+        const allUnchecked = !document.querySelectorAll('.btn-check:checked').length;
+        if (allUnchecked) {
+            document.getElementById('showAll').checked = true;
+        }
+    }
+
+    document.querySelectorAll('.btn-check').forEach(function (checkbox) {
+        checkbox.addEventListener('change', function () {
+            if (this.id === 'showAll' && this.checked) {
+                document.querySelectorAll('.btn-check').forEach(function (checkbox) {
+                    if (checkbox.id !== 'showAll') {
+                        checkbox.checked = false;
+                    }
+                });
+            } else if (this.id !== 'showAll' && this.checked) {
+                document.getElementById('showAll').checked = false;
+            }
+            filterCards();
+        });
+    });
+
+    // re-initializes masonry in writing tab when the tab is opened
+    document.querySelector('#writingTab').addEventListener('shown.bs.tab', function () {
+        writingMasonry.layout();
+    });
+
+    // re-initializes masonry when the window is resized
+    window.addEventListener('resize', function () {
+        filterCards();
+    });
+});
+</script>
+<script> // name button toggle
+let names = ["Cherry", "Ria", "Wii"];
+let currentNameIndex = 0;
+
+function toggleNames() {
+    // Toggle between the names
+    currentNameIndex = (currentNameIndex + 1) % names.length;
+
+    // Update the displayed names in the spans
+    const nameSpans = document.querySelectorAll(".name");
+    nameSpans.forEach((span) => {
+        span.innerText = names[currentNameIndex];
+    });
+}
+</script>
+</body>
+</html>
