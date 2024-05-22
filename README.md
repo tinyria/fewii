@@ -23,7 +23,7 @@
   <li>Checkbox filtering with Bootstrap 5 cards and Masonry</li>
     <ul>
       <li>Initially, I was planning on using HTML/CSS checkbox filtering with the use of data-filters — so I use data-filters to tag my cards appropiately. I use Javascript to sort the cards and re-initalize Masonry when the cards are filtered. A weird issue I had was that some of the filters would force all of the cards into one column, when on MD devices I have Bootstrap set to 2 columns and 3 columns for LG devices. This can be fixed by telling Masonry to force everything into the correct number of columns with Javascript.</li>
-      <li>If you want OR filtering (what I use filters with AND, I think), this <a href="https://github.com/dynamick/multiple-filter-masonry/blob/master/multipleFilterMasonry.js" target="_blank">code</a> seemed pretty goo!d</li>
+      <li>If you want OR filtering (what I use filters with AND, I think), this <a href="https://github.com/dynamick/multiple-filter-masonry/blob/master/multipleFilterMasonry.js" target="_blank">code</a> seemed pretty good!</li>
     </ul>
   <li>Transforming a sidebar to a top bar navigation on mobile or SM devices</li>
   <ul>
